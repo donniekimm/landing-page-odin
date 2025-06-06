@@ -32,11 +32,28 @@ body {
 
 .awesome {
     display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .cool {
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.cool-2 {
+    color: #F9FAF8;
+}
+
+.awesome .img {
+    width: 500px;
+    background-color: grey;
 }
 
 .footer {
@@ -56,4 +73,14 @@ a {
     text-decoration: none;
     font-size: 12px;
     color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-weight: 700px;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 4px;
 }
