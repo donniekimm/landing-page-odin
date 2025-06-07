@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,47 +13,127 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
-.logo, .links {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
+.left {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.awesome {
+.left, .right {
     display: flex;
-    justify-content: space-between;
-    margin: 50px;
+    align-items: center;
 }
 
-.content {
+.modal {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    gap: 40px;
+
 }
+
 
 .cool {
     font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
-.cool-2 {
+.par {
     color: #F9FAF8;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
-.awesome .img {
-    width: 500px;
-    background-color: grey;
+.modal img {
+    width: 400px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.section-two {
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.stuff {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stuff .text {
+    width: 100px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 50px 200px 0 200px;
+}
+
+.thor {
+    margin-left: 400px;
+    margin: 0 200px 50px 200px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+    background-color: #3882F6;
+}
+
+.please {
+    display: flex;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer {
@@ -67,6 +147,9 @@ body {
 ul {
     list-style-type: none;
     gap: 18px;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 a {
